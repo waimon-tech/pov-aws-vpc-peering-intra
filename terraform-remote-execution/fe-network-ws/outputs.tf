@@ -6,6 +6,7 @@ output "frontend_vpc_id" {
 
 # Frontend Subnets ID 
 output "frontend_public_subnet01_id" {
+  description = "subnets ID for frontend"
   value = aws_subnet.frontend_public_subnet01.id
 }
 

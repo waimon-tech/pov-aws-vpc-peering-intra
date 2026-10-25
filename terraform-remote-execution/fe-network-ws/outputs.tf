@@ -16,11 +16,12 @@ output "frontend_private_subnet01_id" {
 }
 
 output "frontend_private_subnet02_id" {
-    description = "private subnets 02 ID for frontend"
+  description = "private subnets 02 ID for frontend"
   value = aws_subnet.frontend_private_subnet02.id
 }
 
 output "frontend_private_subnet03_id" {
+  description = "private subnets 03 ID for frontend"
   value = aws_subnet.frontend_private_subnet03.id
 }
 

@@ -11,6 +11,7 @@ output "frontend_public_subnet01_id" {
 }
 
 output "frontend_private_subnet01_id" {
+  description = "private subnets 01 ID for frontend"
   value = aws_subnet.frontend_private_subnet01.id
 }
 

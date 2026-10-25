@@ -5,7 +5,7 @@ terraform {
     organization = "hellocloud-tfc-org02"
 
     workspaces {
-      name = "be-network-ws"
+      name = "be-network-vcs-ws"
     }
   }
 

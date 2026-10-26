@@ -1,5 +1,5 @@
 variable "region" {
-  description = "The region where the resources are created."
+  description = "The region where the resources are created. test"
   default     = "ap-northeast-2"
 }
 
